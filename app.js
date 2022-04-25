@@ -15,7 +15,7 @@ const app = express();
 
 const MONGO_PASSWORD = process.env.PASSWORD;
 
-const dev_db_url = `mongodb+srv://jakub:${MONGO_PASSWORD}@cluster0.yonlg.mongodb.net/local_library?retryWrites=true&w=majority`;
+const dev_db_url = `mongodb+srv://jakub:jakub@cluster0.yonlg.mongodb.net/local_library?retryWrites=true&w=majority`;
 
 const mongoose = require("mongoose");
 const mongoDB = process.env.MONGODB_URI || dev_db_url;
